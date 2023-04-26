@@ -1,0 +1,66 @@
+*{
+       /* box-sizing: border-box; */
+       margin: 0;
+       padding: 0;
+}
+
+body{
+       background: url('../Images/01.jpg') no-repeat;
+       background-size: cover;
+}
+
+.form{
+       display: flex;
+       flex-direction: column;
+       height: 510px;
+       width: 400px;
+       border: 2px solid black;
+       align-items: center;
+       margin: auto;
+       margin-top: 150px;
+       background-color: rgba(0, 0, 0, 0.4);
+       box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+       border-radius: 20px;
+}
+
+.form h1{
+       color: white;
+       /* font-size: 2rem; */
+       border-bottom: 2px solid rgba(222, 219, 219, 0.5);
+       margin: 50px;
+}
+
+.box{
+       padding: 12px;
+       margin: 20px;
+       width: 85%;
+       border: none;
+       /* outline-style: dotted;
+       outline-color: black; */
+       outline: none;
+       border-radius: 20px;
+       background-color: rgba(0, 0, 0, 0.3);
+       box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+       color: white;
+       font-size: 20px;
+       text-align: center;
+}
+
+#submit{
+       padding: 10px 20px;
+       margin-top: 30px;
+       border-radius: 20px;
+       width: 50%;
+       background-color: rgba(0, 0, 0, 0.3);
+       box-shadow: inset -3px -3px rgba(0, 0, 0, 0.6);
+       color: white;
+       border: none;
+       outline: none;
+       font-size: 22px;
+}
+
+#submit:hover{
+       cursor: pointer;
+       background-color: rgba(131, 123, 123, 0.3);
+       color: white;
+}
